@@ -8,8 +8,6 @@ Tools Used:
 To get started, please clone this repository using the command below in your terminal
 - `git clone <url>`
 
-You need to have Node.js installed to use all of those dependencies above.
-
 ## Tester
 ### Install POSTMAN
 In order to do the test case, we are going to use POSTMAN. If you have not installed POSTMAN on your local machine, please install it through https://www.postman.com/
