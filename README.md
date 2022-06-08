@@ -8,13 +8,7 @@ Tools Used:
 To get started, please clone this repository using the command below in your terminal
 - `git clone <url>`
 
-After cloning this repository, you would want to install dependencies. Please copy and paste the command below step by step:
-- `npm install`
-- `npm install --save-dev express`
-
-You will see `package.json` file on your editor. Open that file and modify the following:
-- a
-- b
+You need to have Node.js installed to use all of those dependencies above.
 
 ## Tester
 ### Install POSTMAN
