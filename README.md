@@ -13,6 +13,7 @@ To get started, please clone this repository using the command below in your ter
 In order to do the test case, we are going to use POSTMAN. If you have not installed POSTMAN on your local machine, please install it through https://www.postman.com/
 
 ### Test Case
+Before running POSTMAN method: `POST`, please change the POSTMAN -> Body to `JSON` format
 #### Test 1
 Test case 1 is to make sure that the initial homepage is working. 
 It should show `PASS` if it works successfully.
