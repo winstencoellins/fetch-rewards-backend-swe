@@ -8,6 +8,19 @@ Tools Used:
 To get started, please clone this repository using the command below in your terminal
 - `git clone <url>`
 
+In this exercise, candidate are told to design routes that:
+- Add transactions for specific payer and date -> `POST` and `GET`
+- Spend points -> `POST`
+- Return balances -> `GET`
+
+The format of the routing we are going to have are:
+- `localhost:5000` -> Homepage
+- `localhost:5000/users` -> User list
+- `localhost:5000/:id` -> User with certain id
+- `localhost:5000/:id/transaction` -> Certain user id's transaction
+- `localhost:5000/:id/spend` -> Points that certain user id's has
+- `localhost:5000/:id/balance` -> Balance of the user id
+
 ## Tester
 ### Install POSTMAN
 In order to do the test case, we are going to use POSTMAN. If you have not installed POSTMAN on your local machine, please install it through https://www.postman.com/
