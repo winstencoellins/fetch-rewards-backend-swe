@@ -16,10 +16,10 @@ In this exercise, candidate are told to design routes that:
 The format of the routing we are going to have are:
 - `localhost:5000` -> Homepage
 - `localhost:5000/users` -> User list
-- `localhost:5000/:id` -> User with certain id
-- `localhost:5000/:id/transaction` -> Certain user id's transaction
-- `localhost:5000/:id/spend` -> Points that certain user id's has
-- `localhost:5000/:id/balance` -> Balance of the user id
+- `localhost:5000/users/:id` -> User with certain id
+- `localhost:5000/users/:id/transaction` -> Certain user id's transaction
+- `localhost:5000/users/:id/spend` -> Points that certain user id's has
+- `localhost:5000/users/:id/balance` -> Balance of the user id
 
 ## Tester
 ### Install POSTMAN
