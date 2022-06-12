@@ -2,6 +2,7 @@
 Tools Used:
 - Node.js
 - Express.js
+- Nodemon
 - POSTMAN
 
 ## Getting Started
@@ -20,6 +21,14 @@ The format of the routing we are going to have are:
 - `localhost:5000/users/:id/transaction` -> Certain user id's transaction
 - `localhost:5000/users/:id/spend` -> Points that certain user id's has
 - `localhost:5000/users/:id/balance` -> Balance of the user id
+
+### Dependencies to install
+You would need to have these dependencies installed if you do not have it:
+- Node.js version > 10.x.x. To install node js, run: `npm install` on your terminal
+- Express.js for routing. To install express js, run: `npm install express` on your terminal
+- Nodemon for live server. To install nodemon, run: `npm install --save-dev nodemon` on your terminal
+
+#### Note: 
 
 ## Tester
 ### Install POSTMAN
