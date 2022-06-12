@@ -28,7 +28,7 @@ You would need to have these dependencies installed if you do not have it:
 - Express.js for routing. To install express js, run: `npm install express` on your terminal
 - Nodemon for live server. To install nodemon, run: `npm install --save-dev nodemon` on your terminal
 
-#### Note: 
+#### Note: Your package.json format should look like the one presented on this github. On your package.json, you need to make changes to some of the format. Under `"main": "index.js` add `"type": "module"`, and change the `"script": {xxx}` to `"script": {"start": "nodemon index.js"}`. After changing it, you can run it using `npm start`
 
 ## Tester
 ### Install POSTMAN
